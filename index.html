@@ -1,30 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-   <link href="./output.css" rel="stylesheet">
-</head>
-<body>
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-blue-950 flex flex-col items-center justify-center h-screen font-outfit text-blue-300"
+  >
+    <div
+      class="bg-blue-900 flex flex-col justify-center max-w-xs p-5 rounded-xl"
+    >
+      <div class="p-2 relative group cursor-pointer overflow-hidden">
+        <img
+          src="/images/image-equilibrium.jpg"
+          alt=""
+          class="rounded-lg hover:opacity-50 cursor-pointer"
+        />
+        <div
+          class="absolute inset-0 flex items-center justify-center bg-cyan-400/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        >
+          <img
+            src="/images/icon-view.svg"
+            alt="View Icon"
+            class="w-7 h-7 transform translate-y-3 group-hover:translate-y-0 transition-transform duration-300"
+          />
+        </div>
+      </div>
 
-  Equilibrium #3429
+      <div class="p-2">
+        <h2 class="text-white hover:text-cyan-400 cursor-pointer">
+          Equilibrium #3429
+        </h2>
 
-  Our Equilibrium collection promotes balance and calm.
+        <p class="text-sm">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <div class="flex justify-between">
+        <div class="flex gap-3">
+          <img src="/images/icon-ethereum.svg" alt="" class="w-4 h-5" />
+          <p class="text-sm text-cyan-400">0.041 ETH</p>
+        </div>
+        <div class="flex gap-3">
+          <img src="/images/icon-clock.svg" alt="" class="w-4 h-5" />
+          <p class="text-sm">3 days left</p>
+        </div>
+      </div>
+      <div class="p-3"><hr class="border-blue-800" /></div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="flex gap-4 p-3">
+        <img
+          src="/images/image-avatar.png"
+          alt=""
+          class="w-8 h-8 border rounded-full border-white"
+        />
+        <p class="flex items-center text-sm">
+          Creation of
+          <span class="text-white hover:text-cyan-400 cursor-pointer">
+            &nbsp; Jules Wyvern</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="p-2 text-sm">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://github.com/Enning94"
+        class="text-white hover:text-cyan-400 cursor-pointer"
+        >Festus Enning</a
+      >.
+    </div>
+  </body>
 </html>
