@@ -29,7 +29,9 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository](https://github.com/Enning94/NFT-preview-card-component-solution)
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+
+- Live Site URL: [Live Demo](https://enning94.github.io/NFT-preview-card-component-solution/)
+
 
 ### Built with
 
